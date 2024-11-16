@@ -1,6 +1,6 @@
 import scratchattach as sa
 
-session = sa.login_by_id(r'".eJxVkMFOwzAQRP8lZwixHTt2b0VAi5A4QKnUk2U7m8ZNY5fEUVQQ_44t5dLrzO6b2f3NphEGp3rIVtluGsIOxpDdZcF34KJUakQbXqqmqFhJMRUUjGAEl6AFV5yv2OfL9XXc8P31Wz7v37ZbtcYntHnCX3PEnP3Runt7iSTBc4SqnJEccRotqabQypQubR19TgijAvNo1Sfljl4G28OPd6nZuofBGvXwDrM8-KG73W_V2MYhJBARStAC64aa2gBpCq2pEKriihEGRYMLjVJCiFca7zub4HMEQn2L1MrEB6ReSQMXYnqw3uWLMeYfcDkv4uMy_PcPD7trBA:1tCMWp:3xSHlAMCInjvKTCsT5MEV63nMgQ"', username="TurtTest") #replace with your session_id and username
+session = sa.login_by_id(r'"session"', username="TurtTest") #replace with your session_id and username
 cloud = session.connect_cloud("1096825275") #replace with your project id
 client = cloud.requests()
 
